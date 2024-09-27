@@ -1,0 +1,14 @@
+spring:
+#  webflux:
+#    base-path: "teste"
+  jackson:
+    property-naming-strategy: SNAKE_CASE
+  datasource:
+    driverClassName: oracle.jdbc.OracleDriver
+    url: jdbc:oracle:thin:@localhost:1521/XEPDB1
+    username: COROUTINES_CRUD
+    password: 123456
+  jpa:
+    show-sql: true
+#    hibernate:
+#      ddl-auto: 'create'
